@@ -1,0 +1,5 @@
+Health Center V2 label fix
+- main.dart: fixed static sidebar label from V1 to V2.
+- main.rs: unchanged from Health Center V2.
+- To apply this label-only fix, replace lib/main.dart only.
+- This does not prove the Rust V2 backend is loaded; run cargo build and verify Repair Center separately.
